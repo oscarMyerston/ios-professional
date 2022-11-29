@@ -29,6 +29,8 @@
 		B5A1B7902901A7C100ABBDDD /* AccountSummaryHeaderView.xib in Resources */ = {isa = PBXBuildFile; fileRef = B5A1B78F2901A7C100ABBDDD /* AccountSummaryHeaderView.xib */; };
 		B5B7AD8529351BB200413EFB /* Date+Utils.swift in Sources */ = {isa = PBXBuildFile; fileRef = B5B7AD8429351BB200413EFB /* Date+Utils.swift */; };
 		B5B7AD8729351E7A00413EFB /* AccountSummaryViewController+Networking.swift in Sources */ = {isa = PBXBuildFile; fileRef = B5B7AD8629351E7A00413EFB /* AccountSummaryViewController+Networking.swift */; };
+		B5B7AD8B29353CD100413EFB /* ProfileTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = B5B7AD8A29353CD100413EFB /* ProfileTests.swift */; };
+		B5B7AD8D29353E4F00413EFB /* AccountTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = B5B7AD8C29353E4F00413EFB /* AccountTests.swift */; };
 		B5EAFDCF291B07C400D11FBB /* CurrencyFormatterTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = B5EAFDCE291B07C400D11FBB /* CurrencyFormatterTests.swift */; };
 /* End PBXBuildFile section */
 
@@ -68,6 +70,8 @@
 		B5A1B78F2901A7C100ABBDDD /* AccountSummaryHeaderView.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = AccountSummaryHeaderView.xib; sourceTree = "<group>"; };
 		B5B7AD8429351BB200413EFB /* Date+Utils.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "Date+Utils.swift"; sourceTree = "<group>"; };
 		B5B7AD8629351E7A00413EFB /* AccountSummaryViewController+Networking.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "AccountSummaryViewController+Networking.swift"; sourceTree = "<group>"; };
+		B5B7AD8A29353CD100413EFB /* ProfileTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ProfileTests.swift; sourceTree = "<group>"; };
+		B5B7AD8C29353E4F00413EFB /* AccountTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AccountTests.swift; sourceTree = "<group>"; };
 		B5EAFDCE291B07C400D11FBB /* CurrencyFormatterTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CurrencyFormatterTests.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
@@ -151,7 +155,8 @@
 		B56DE0A029105B6D006F8402 /* BankeyTests */ = {
 			isa = PBXGroup;
 			children = (
-				B5EAFDCE291B07C400D11FBB /* CurrencyFormatterTests.swift */,
+				B5B7AD8929353C7000413EFB /* AccountSummary */,
+				B5B7AD8829353C6200413EFB /* Utils */,
 			);
 			path = BankeyTests;
 			sourceTree = "<group>";
@@ -207,6 +212,23 @@
 				B54FFD7B290025E90014264B /* DummyViewController.swift */,
 			);
 			name = Login;
+			sourceTree = "<group>";
+		};
+		B5B7AD8829353C6200413EFB /* Utils */ = {
+			isa = PBXGroup;
+			children = (
+				B5EAFDCE291B07C400D11FBB /* CurrencyFormatterTests.swift */,
+			);
+			path = Utils;
+			sourceTree = "<group>";
+		};
+		B5B7AD8929353C7000413EFB /* AccountSummary */ = {
+			isa = PBXGroup;
+			children = (
+				B5B7AD8A29353CD100413EFB /* ProfileTests.swift */,
+				B5B7AD8C29353E4F00413EFB /* AccountTests.swift */,
+			);
+			path = AccountSummary;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -312,6 +334,8 @@
 			buildActionMask = 2147483647;
 			files = (
 				B5EAFDCF291B07C400D11FBB /* CurrencyFormatterTests.swift in Sources */,
+				B5B7AD8D29353E4F00413EFB /* AccountTests.swift in Sources */,
+				B5B7AD8B29353CD100413EFB /* ProfileTests.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
