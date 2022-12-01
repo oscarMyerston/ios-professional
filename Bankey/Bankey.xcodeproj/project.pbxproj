@@ -25,6 +25,8 @@
 		B57D78D228C953B400AA4F23 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = B57D78D128C953B400AA4F23 /* Assets.xcassets */; };
 		B57D78D528C953B400AA4F23 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = B57D78D328C953B400AA4F23 /* LaunchScreen.storyboard */; };
 		B57D78DF28C9572F00AA4F23 /* LoginView.swift in Sources */ = {isa = PBXBuildFile; fileRef = B57D78DE28C9572F00AA4F23 /* LoginView.swift */; };
+		B59FB7752936B568002FEB72 /* SkeletonLoadable.swift in Sources */ = {isa = PBXBuildFile; fileRef = B59FB7742936B568002FEB72 /* SkeletonLoadable.swift */; };
+		B59FB7772936F800002FEB72 /* SkeletonCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = B59FB7762936F800002FEB72 /* SkeletonCell.swift */; };
 		B5A1B78E2901A7AB00ABBDDD /* AccountSummaryHeaderView.swift in Sources */ = {isa = PBXBuildFile; fileRef = B5A1B78D2901A7AB00ABBDDD /* AccountSummaryHeaderView.swift */; };
 		B5A1B7902901A7C100ABBDDD /* AccountSummaryHeaderView.xib in Resources */ = {isa = PBXBuildFile; fileRef = B5A1B78F2901A7C100ABBDDD /* AccountSummaryHeaderView.xib */; };
 		B5B7AD8529351BB200413EFB /* Date+Utils.swift in Sources */ = {isa = PBXBuildFile; fileRef = B5B7AD8429351BB200413EFB /* Date+Utils.swift */; };
@@ -66,6 +68,8 @@
 		B57D78D428C953B400AA4F23 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		B57D78D628C953B400AA4F23 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		B57D78DE28C9572F00AA4F23 /* LoginView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LoginView.swift; sourceTree = "<group>"; };
+		B59FB7742936B568002FEB72 /* SkeletonLoadable.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SkeletonLoadable.swift; sourceTree = "<group>"; };
+		B59FB7762936F800002FEB72 /* SkeletonCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SkeletonCell.swift; sourceTree = "<group>"; };
 		B5A1B78D2901A7AB00ABBDDD /* AccountSummaryHeaderView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AccountSummaryHeaderView.swift; sourceTree = "<group>"; };
 		B5A1B78F2901A7C100ABBDDD /* AccountSummaryHeaderView.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = AccountSummaryHeaderView.xib; sourceTree = "<group>"; };
 		B5B7AD8429351BB200413EFB /* Date+Utils.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "Date+Utils.swift"; sourceTree = "<group>"; };
@@ -106,6 +110,8 @@
 			isa = PBXGroup;
 			children = (
 				B549CD182901D8C5008454A2 /* AccountSummaryCell.swift */,
+				B59FB7742936B568002FEB72 /* SkeletonLoadable.swift */,
+				B59FB7762936F800002FEB72 /* SkeletonCell.swift */,
 			);
 			path = Cells;
 			sourceTree = "<group>";
@@ -344,6 +350,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				B56D992129009A300044B426 /* UIViewController+Utils.swift in Sources */,
+				B59FB7772936F800002FEB72 /* SkeletonCell.swift in Sources */,
 				B5B7AD8529351BB200413EFB /* Date+Utils.swift in Sources */,
 				B57D78DF28C9572F00AA4F23 /* LoginView.swift in Sources */,
 				B56D991F29008E920044B426 /* LocalState.swift in Sources */,
@@ -361,6 +368,7 @@
 				B56D9926290196E80044B426 /* AccountSummaryViewController.swift in Sources */,
 				B57D78C928C953AC00AA4F23 /* AppDelegate.swift in Sources */,
 				B55CCB2128DCC80A00FDA6DA /* OnboardingContainerViewController.swift in Sources */,
+				B59FB7752936B568002FEB72 /* SkeletonLoadable.swift in Sources */,
 				B5B7AD8729351E7A00413EFB /* AccountSummaryViewController+Networking.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
