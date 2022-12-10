@@ -7,31 +7,27 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
-		B554146D293E88B2003A7244 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = B554146C293E88B2003A7244 /* AppDelegate.swift */; };
-		B5541471293E88B2003A7244 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = B5541470293E88B2003A7244 /* ViewController.swift */; };
-		B5541476293E88B8003A7244 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = B5541475293E88B8003A7244 /* Assets.xcassets */; };
-		B5541479293E88B8003A7244 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = B5541477293E88B8003A7244 /* LaunchScreen.storyboard */; };
-		B5541483293EBE00003A7244 /* PasswordTextField.swift in Sources */ = {isa = PBXBuildFile; fileRef = B5541482293EBE00003A7244 /* PasswordTextField.swift */; };
-		B5B0EA072943DA1E00349790 /* PasswordCriteria.swift in Sources */ = {isa = PBXBuildFile; fileRef = B5B0EA062943DA1E00349790 /* PasswordCriteria.swift */; };
-		B5C50A87293F8F52008C6167 /* PasswordCriteriaView.swift in Sources */ = {isa = PBXBuildFile; fileRef = B5C50A86293F8F52008C6167 /* PasswordCriteriaView.swift */; };
-		B5C50A89293FB71A008C6167 /* PasswordStatusView.swift in Sources */ = {isa = PBXBuildFile; fileRef = B5C50A88293FB71A008C6167 /* PasswordStatusView.swift */; };
+		B5B0E9F32943924C00349790 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = B5B0E9F22943924C00349790 /* AppDelegate.swift */; };
+		B5B0E9F52943924C00349790 /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = B5B0E9F42943924C00349790 /* SceneDelegate.swift */; };
+		B5B0E9F72943924C00349790 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = B5B0E9F62943924C00349790 /* ViewController.swift */; };
+		B5B0E9FA2943924C00349790 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = B5B0E9F82943924C00349790 /* Main.storyboard */; };
+		B5B0E9FC2943925100349790 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = B5B0E9FB2943925100349790 /* Assets.xcassets */; };
+		B5B0E9FF2943925100349790 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = B5B0E9FD2943925100349790 /* LaunchScreen.storyboard */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
-		B5541469293E88B2003A7244 /* Password.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Password.app; sourceTree = BUILT_PRODUCTS_DIR; };
-		B554146C293E88B2003A7244 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
-		B5541470293E88B2003A7244 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
-		B5541475293E88B8003A7244 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
-		B5541478293E88B8003A7244 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
-		B554147A293E88B8003A7244 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
-		B5541482293EBE00003A7244 /* PasswordTextField.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PasswordTextField.swift; sourceTree = "<group>"; };
-		B5B0EA062943DA1E00349790 /* PasswordCriteria.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PasswordCriteria.swift; sourceTree = "<group>"; };
-		B5C50A86293F8F52008C6167 /* PasswordCriteriaView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PasswordCriteriaView.swift; sourceTree = "<group>"; };
-		B5C50A88293FB71A008C6167 /* PasswordStatusView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PasswordStatusView.swift; sourceTree = "<group>"; };
+		B5B0E9EF2943924C00349790 /* Sandbox.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Sandbox.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		B5B0E9F22943924C00349790 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		B5B0E9F42943924C00349790 /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
+		B5B0E9F62943924C00349790 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		B5B0E9F92943924C00349790 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		B5B0E9FB2943925100349790 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		B5B0E9FE2943925100349790 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		B5B0EA002943925100349790 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
-		B5541466293E88B2003A7244 /* Frameworks */ = {
+		B5B0E9EC2943924C00349790 /* Frameworks */ = {
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
@@ -41,90 +37,72 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
-		B5541460293E88B2003A7244 = {
+		B5B0E9E62943924C00349790 = {
 			isa = PBXGroup;
 			children = (
-				B554146B293E88B2003A7244 /* Password */,
-				B554146A293E88B2003A7244 /* Products */,
+				B5B0E9F12943924C00349790 /* Sandbox */,
+				B5B0E9F02943924C00349790 /* Products */,
 			);
 			sourceTree = "<group>";
 		};
-		B554146A293E88B2003A7244 /* Products */ = {
+		B5B0E9F02943924C00349790 /* Products */ = {
 			isa = PBXGroup;
 			children = (
-				B5541469293E88B2003A7244 /* Password.app */,
+				B5B0E9EF2943924C00349790 /* Sandbox.app */,
 			);
 			name = Products;
 			sourceTree = "<group>";
 		};
-		B554146B293E88B2003A7244 /* Password */ = {
+		B5B0E9F12943924C00349790 /* Sandbox */ = {
 			isa = PBXGroup;
 			children = (
-				B5541481293EBAA6003A7244 /* Files */,
-				B554146C293E88B2003A7244 /* AppDelegate.swift */,
-				B5541470293E88B2003A7244 /* ViewController.swift */,
-				B5541482293EBE00003A7244 /* PasswordTextField.swift */,
-				B5C50A85293F8F2F008C6167 /* PasswordStatusView */,
+				B5B0E9F22943924C00349790 /* AppDelegate.swift */,
+				B5B0E9F42943924C00349790 /* SceneDelegate.swift */,
+				B5B0E9F62943924C00349790 /* ViewController.swift */,
+				B5B0E9F82943924C00349790 /* Main.storyboard */,
+				B5B0E9FB2943925100349790 /* Assets.xcassets */,
+				B5B0E9FD2943925100349790 /* LaunchScreen.storyboard */,
+				B5B0EA002943925100349790 /* Info.plist */,
 			);
-			path = Password;
-			sourceTree = "<group>";
-		};
-		B5541481293EBAA6003A7244 /* Files */ = {
-			isa = PBXGroup;
-			children = (
-				B5541475293E88B8003A7244 /* Assets.xcassets */,
-				B5541477293E88B8003A7244 /* LaunchScreen.storyboard */,
-				B554147A293E88B8003A7244 /* Info.plist */,
-			);
-			name = Files;
-			sourceTree = "<group>";
-		};
-		B5C50A85293F8F2F008C6167 /* PasswordStatusView */ = {
-			isa = PBXGroup;
-			children = (
-				B5C50A86293F8F52008C6167 /* PasswordCriteriaView.swift */,
-				B5C50A88293FB71A008C6167 /* PasswordStatusView.swift */,
-				B5B0EA062943DA1E00349790 /* PasswordCriteria.swift */,
-			);
-			path = PasswordStatusView;
+			path = Sandbox;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
 
 /* Begin PBXNativeTarget section */
-		B5541468293E88B2003A7244 /* Password */ = {
+		B5B0E9EE2943924C00349790 /* Sandbox */ = {
 			isa = PBXNativeTarget;
-			buildConfigurationList = B554147D293E88B8003A7244 /* Build configuration list for PBXNativeTarget "Password" */;
+			buildConfigurationList = B5B0EA032943925100349790 /* Build configuration list for PBXNativeTarget "Sandbox" */;
 			buildPhases = (
-				B5541465293E88B2003A7244 /* Sources */,
-				B5541466293E88B2003A7244 /* Frameworks */,
-				B5541467293E88B2003A7244 /* Resources */,
+				B5B0E9EB2943924C00349790 /* Sources */,
+				B5B0E9EC2943924C00349790 /* Frameworks */,
+				B5B0E9ED2943924C00349790 /* Resources */,
 			);
 			buildRules = (
 			);
 			dependencies = (
 			);
-			name = Password;
-			productName = Password;
-			productReference = B5541469293E88B2003A7244 /* Password.app */;
+			name = Sandbox;
+			productName = Sandbox;
+			productReference = B5B0E9EF2943924C00349790 /* Sandbox.app */;
 			productType = "com.apple.product-type.application";
 		};
 /* End PBXNativeTarget section */
 
 /* Begin PBXProject section */
-		B5541461293E88B2003A7244 /* Project object */ = {
+		B5B0E9E72943924C00349790 /* Project object */ = {
 			isa = PBXProject;
 			attributes = {
 				BuildIndependentTargetsInParallel = 1;
 				LastSwiftUpdateCheck = 1400;
 				LastUpgradeCheck = 1400;
 				TargetAttributes = {
-					B5541468293E88B2003A7244 = {
+					B5B0E9EE2943924C00349790 = {
 						CreatedOnToolsVersion = 14.0;
 					};
 				};
 			};
-			buildConfigurationList = B5541464293E88B2003A7244 /* Build configuration list for PBXProject "Password" */;
+			buildConfigurationList = B5B0E9EA2943924C00349790 /* Build configuration list for PBXProject "Sandbox" */;
 			compatibilityVersion = "Xcode 14.0";
 			developmentRegion = en;
 			hasScannedForEncodings = 0;
@@ -132,49 +110,55 @@
 				en,
 				Base,
 			);
-			mainGroup = B5541460293E88B2003A7244;
-			productRefGroup = B554146A293E88B2003A7244 /* Products */;
+			mainGroup = B5B0E9E62943924C00349790;
+			productRefGroup = B5B0E9F02943924C00349790 /* Products */;
 			projectDirPath = "";
 			projectRoot = "";
 			targets = (
-				B5541468293E88B2003A7244 /* Password */,
+				B5B0E9EE2943924C00349790 /* Sandbox */,
 			);
 		};
 /* End PBXProject section */
 
 /* Begin PBXResourcesBuildPhase section */
-		B5541467293E88B2003A7244 /* Resources */ = {
+		B5B0E9ED2943924C00349790 /* Resources */ = {
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				B5541479293E88B8003A7244 /* LaunchScreen.storyboard in Resources */,
-				B5541476293E88B8003A7244 /* Assets.xcassets in Resources */,
+				B5B0E9FF2943925100349790 /* LaunchScreen.storyboard in Resources */,
+				B5B0E9FC2943925100349790 /* Assets.xcassets in Resources */,
+				B5B0E9FA2943924C00349790 /* Main.storyboard in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXResourcesBuildPhase section */
 
 /* Begin PBXSourcesBuildPhase section */
-		B5541465293E88B2003A7244 /* Sources */ = {
+		B5B0E9EB2943924C00349790 /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				B5541471293E88B2003A7244 /* ViewController.swift in Sources */,
-				B5B0EA072943DA1E00349790 /* PasswordCriteria.swift in Sources */,
-				B554146D293E88B2003A7244 /* AppDelegate.swift in Sources */,
-				B5C50A87293F8F52008C6167 /* PasswordCriteriaView.swift in Sources */,
-				B5C50A89293FB71A008C6167 /* PasswordStatusView.swift in Sources */,
-				B5541483293EBE00003A7244 /* PasswordTextField.swift in Sources */,
+				B5B0E9F72943924C00349790 /* ViewController.swift in Sources */,
+				B5B0E9F32943924C00349790 /* AppDelegate.swift in Sources */,
+				B5B0E9F52943924C00349790 /* SceneDelegate.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXSourcesBuildPhase section */
 
 /* Begin PBXVariantGroup section */
-		B5541477293E88B8003A7244 /* LaunchScreen.storyboard */ = {
+		B5B0E9F82943924C00349790 /* Main.storyboard */ = {
 			isa = PBXVariantGroup;
 			children = (
-				B5541478293E88B8003A7244 /* Base */,
+				B5B0E9F92943924C00349790 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		B5B0E9FD2943925100349790 /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				B5B0E9FE2943925100349790 /* Base */,
 			);
 			name = LaunchScreen.storyboard;
 			sourceTree = "<group>";
@@ -182,7 +166,7 @@
 /* End PBXVariantGroup section */
 
 /* Begin XCBuildConfiguration section */
-		B554147B293E88B8003A7244 /* Debug */ = {
+		B5B0EA012943925100349790 /* Debug */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ALWAYS_SEARCH_USER_PATHS = NO;
@@ -242,7 +226,7 @@
 			};
 			name = Debug;
 		};
-		B554147C293E88B8003A7244 /* Release */ = {
+		B5B0EA022943925100349790 /* Release */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ALWAYS_SEARCH_USER_PATHS = NO;
@@ -296,7 +280,7 @@
 			};
 			name = Release;
 		};
-		B554147E293E88B8003A7244 /* Debug */ = {
+		B5B0EA042943925100349790 /* Debug */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
@@ -305,9 +289,10 @@
 				CURRENT_PROJECT_VERSION = 1;
 				DEVELOPMENT_TEAM = FBYWB2P4JC;
 				GENERATE_INFOPLIST_FILE = YES;
-				INFOPLIST_FILE = Password/Info.plist;
+				INFOPLIST_FILE = Sandbox/Info.plist;
 				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
 				INFOPLIST_KEY_UILaunchStoryboardName = LaunchScreen;
+				INFOPLIST_KEY_UIMainStoryboardFile = Main;
 				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
 				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
 				LD_RUNPATH_SEARCH_PATHS = (
@@ -315,7 +300,7 @@
 					"@executable_path/Frameworks",
 				);
 				MARKETING_VERSION = 1.0;
-				PRODUCT_BUNDLE_IDENTIFIER = com.osc.Password;
+				PRODUCT_BUNDLE_IDENTIFIER = com.osc.Sandbox;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SWIFT_EMIT_LOC_STRINGS = YES;
 				SWIFT_VERSION = 5.0;
@@ -323,7 +308,7 @@
 			};
 			name = Debug;
 		};
-		B554147F293E88B8003A7244 /* Release */ = {
+		B5B0EA052943925100349790 /* Release */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
@@ -332,9 +317,10 @@
 				CURRENT_PROJECT_VERSION = 1;
 				DEVELOPMENT_TEAM = FBYWB2P4JC;
 				GENERATE_INFOPLIST_FILE = YES;
-				INFOPLIST_FILE = Password/Info.plist;
+				INFOPLIST_FILE = Sandbox/Info.plist;
 				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
 				INFOPLIST_KEY_UILaunchStoryboardName = LaunchScreen;
+				INFOPLIST_KEY_UIMainStoryboardFile = Main;
 				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
 				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
 				LD_RUNPATH_SEARCH_PATHS = (
@@ -342,7 +328,7 @@
 					"@executable_path/Frameworks",
 				);
 				MARKETING_VERSION = 1.0;
-				PRODUCT_BUNDLE_IDENTIFIER = com.osc.Password;
+				PRODUCT_BUNDLE_IDENTIFIER = com.osc.Sandbox;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SWIFT_EMIT_LOC_STRINGS = YES;
 				SWIFT_VERSION = 5.0;
@@ -353,25 +339,25 @@
 /* End XCBuildConfiguration section */
 
 /* Begin XCConfigurationList section */
-		B5541464293E88B2003A7244 /* Build configuration list for PBXProject "Password" */ = {
+		B5B0E9EA2943924C00349790 /* Build configuration list for PBXProject "Sandbox" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
-				B554147B293E88B8003A7244 /* Debug */,
-				B554147C293E88B8003A7244 /* Release */,
+				B5B0EA012943925100349790 /* Debug */,
+				B5B0EA022943925100349790 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
 		};
-		B554147D293E88B8003A7244 /* Build configuration list for PBXNativeTarget "Password" */ = {
+		B5B0EA032943925100349790 /* Build configuration list for PBXNativeTarget "Sandbox" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
-				B554147E293E88B8003A7244 /* Debug */,
-				B554147F293E88B8003A7244 /* Release */,
+				B5B0EA042943925100349790 /* Debug */,
+				B5B0EA052943925100349790 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
-	rootObject = B5541461293E88B2003A7244 /* Project object */;
+	rootObject = B5B0E9E72943924C00349790 /* Project object */;
 }
